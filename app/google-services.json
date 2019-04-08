@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "40924973249",
+    "firebase_url": "https://login-demo-944aa.firebaseio.com",
+    "project_id": "login-demo-944aa",
+    "storage_bucket": "login-demo-944aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40924973249:android:0c834a77dd27c86b",
+        "android_client_info": {
+          "package_name": "com.harsha.loginapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "40924973249-8hv3htera67p4g7oia5nb2o2b1bem3i2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.harsha.loginapp",
+            "certificate_hash": "2ec3c8a125e6c52c220c0cc0dfb644f08f4540b4"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW_lpp8rArT40KzyNEshCYRiBmFD4qAe0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "40924973249-72m222lqde2vsqt9gmvu51v66qepjqdf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

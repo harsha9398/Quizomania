@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.harsha.vectorapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Quizomania"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".RegistrationActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".CategoryActivity" />
+        <activity android:name=".SportsQuizActivity" />
+        <activity android:name=".ScienceQuizActivity" />
+        <activity android:name=".MathematicsQuizActivity" />
+        <activity android:name=".CurrencyQuizActivity" />
+        <activity android:name=".ComputerQuizActivity" />
+        <activity android:name=".ScoreActivity" />
+        <activity android:name=".CapitalsQuizActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

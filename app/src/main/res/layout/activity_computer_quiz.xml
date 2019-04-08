@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ComputerQuizActivity">
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="Score: 0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/QuestionCount"
+        android:text="Question: 1/x"
+        android:layout_below="@id/score"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/CountDown"
+        android:layout_alignParentRight="true"
+        android:text="00:30"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:id="@+id/Question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Question Question Question Question Question Question Question Question"
+        android:textAlignment="center" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rbGroup"
+        android:layout_below="@+id/Question">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb1"
+            android:layout_below="@id/Question"
+            android:text="Option 1"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb2"
+            android:layout_below="@id/rb1"
+            android:text="Option 2"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb3"
+            android:layout_below="@id/rb2"
+            android:text="Option 3"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonConfirmNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rbGroup"
+        android:text="Confirm"
+        android:onClick="confirmNext"/>
+
+</RelativeLayout>
